@@ -12,12 +12,35 @@ body, html {
   max-height: 20px;  
 }
 
-/* Full height image header */
-.bgimg-1 {  
+.header-bcgr {  
   background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.1)), url("/assets/img/header-bcgr.jpg");
   background-position: center;
+  background-repeat: no-repeat;  
   background-size: cover;
   min-height: 100%;
+}
+
+.header-text {
+  font-size: 64px !important;
+}
+
+
+// @media only screen and (min-width: 601px) {
+
+
+  
+// }
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .header-bcgr {      
+    min-height: 40%;
+  }
+
+  .header-text {
+    font-size: x-large !important;
+    display: flex;
+  }
 }
 
 .w3-bar .w3-button {
