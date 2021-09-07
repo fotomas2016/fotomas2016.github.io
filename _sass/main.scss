@@ -12,8 +12,9 @@ body, html {
   max-height: 20px;  
 }
 
+
 .header-bcgr {  
-  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.1)), url("/assets/img/header-bcgr.jpg");
+  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.1)), url("/assets/img/peak.jpg");
   background-position: center;
   background-repeat: no-repeat;  
   background-size: cover;
@@ -23,6 +24,13 @@ body, html {
 .header-text {
   font-size: 64px !important;
 }
+
+.coming-soon {  
+  width: 50%;
+  height: auto;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
 
 
 // @media only screen and (min-width: 601px) {
@@ -40,6 +48,10 @@ body, html {
   .header-text {
     font-size: x-large !important;
     display: flex;
+  }
+
+  .coming-soon {
+    width: 100%;
   }
 }
 
