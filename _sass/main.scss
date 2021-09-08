@@ -62,3 +62,11 @@ body, html {
 .padding-all {
   padding:70px 16px !important;
 }
+
+.gradWtoG {
+  background: linear-gradient(to bottom, #ffffff 0%, #bdc8f8 200%);
+}
+
+.gradGtoW {
+  background: linear-gradient(to top, #ffffff 0%, #bdc8f8 200%);
+}
